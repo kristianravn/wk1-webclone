@@ -1,0 +1,40 @@
+.container {
+    position:relative;
+    text-align: center;
+
+}
+
+.centered{
+    position:absolute;
+    top:25%;
+    left:25%;
+
+}
+  nav {
+    display:flex;
+    justify-content: space-between;
+    background-color: red;
+    height:1000px
+    
+    
+  }
+
+
+  nav a {
+    color:white;
+    display:flex
+  }
+
+  .topnav{
+    display:flex;
+    justify-content: space-between;
+    height:30px
+}
+
+.welcome{
+display:flex;
+justify-content: center;
+color:white;
+
+}
+
