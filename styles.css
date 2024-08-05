@@ -1,40 +1,228 @@
 .container {
+    display: flex;
     position:relative;
-    text-align: center;
-
+    text-align: space-evenly;
+    font-size: 100px;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.centered{
-    position:absolute;
-    top:25%;
-    left:25%;
-
+body{
+  margin: 0;
+  padding: 0;
+  
 }
-  nav {
-    display:flex;
-    justify-content: space-between;
-    background-color: red;
-    height:1000px
-    
-    
+
+.topnavbar{
+  display:flex;
+  text-align: flex-start;
+  flex-direction: row;
+  padding-left: 4%;
+  padding: 1%;
+  height: 25px;
+  color: black;
+  font-size: 15px;
+  background-color:white;
+  justify-content: space-between;
+}
+  
+ 
+
+
+
+.logo{
+  padding: 2%;
+  padding-left: 4%;
+}
+
+.logo{
+  display: flex;
+  flex-direction: flex-end;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color:red;
+  
+}
+
+
+  .nava1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color:red;
+    font-size: 20px;
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 3%;
+    color: white;
   }
 
 
-  nav a {
-    color:white;
-    display:flex
-  }
 
-  .topnav{
-    display:flex;
-    justify-content: space-between;
-    height:30px
-}
+
 
 .welcome{
 display:flex;
+flex-direction: column;
+align-items: center;
 justify-content: center;
+flex-wrap: wrap;
 color:white;
+background-color: red;
+font-size: 35px;
+
+}
+.postcode{
+display:flex;
+align-items: center;
+justify-content: center;
+width: 300px;
+height: 60px;
+background-color: white;
+border: 1px black solid;
+border-radius: 30px;
+}
+
+
+.enterpostcode{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  padding: 20px;
+  color:white;
+  font-size: 20px;
+}
+
+.postcode3{
+  display:flex;
+  justify-content: flex-end;
+}
+
+
+.innerpostcode{
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 250px;
+  height: 60px;
+  padding-right: 50px;
+  background-color: purple;
+  border: 1px black solid;
+  border-radius: 30px;
+}
+
+.deals2{
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100px;
+  height: 40px;
+  padding:0%;
+  background-color: purple;
+  border: 1px black solid;
+  border-radius: 30px;
+}
+
+
+.redcentre{
+  display:flex;
+  justify-content: center;
+  background-color: red;
 
 }
 
+.redcentre2{
+    display:flex;
+    justify-content: center;
+    background-color: purple;
+  }
+  .summerofsport{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+  }
+ 
+  .text1{
+    display:flex;
+    flex-direction: column;
+    align-items: row;
+    justify-content: flex-end;
+    color:white;
+    font-size: 25px;
+    background-color: red;
+  }
+
+  .text2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:black;
+    font-size: 20px;
+    background-color:white;
+  }
+
+  .sportsimage{
+    display: flex;
+    flex-direction: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color:red;
+  }
+
+  
+.perks{
+  display:flex;
+  padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:black;
+    font-size: 20px;
+    background-color: white;
+}
+.image1{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+
+}
+.image2{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+}
+.security{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+}
+.volt{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+}
