@@ -26,7 +26,18 @@ body{
   justify-content: space-between;
 }
   
- 
+ .business{
+  display:flex;
+  text-align: flex-start;
+  flex-direction: row;
+  padding-left: 80%;
+  padding: 0%;
+  height: 25px;
+  color: black;
+  font-size: 15px;
+  background-color:white;
+  justify-content: space-evenly;
+ }
 
 
 
@@ -57,20 +68,16 @@ body{
     padding-right: 3%;
     color: white;
   }
-
-
-
-
-
-.welcome{
-display:flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-color:white;
-background-color: red;
-font-size: 35px;
+  
+  .welcome{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:white;
+  background-color: red;
+  font-size: 35px;
 
 }
 .postcode{
@@ -171,51 +178,35 @@ border-radius: 30px;
     align-items: flex-end;
     justify-content: flex-end;
     background-color:red;
+    padding-right: 20%;
   }
 
   
 .perks{
-  display:flex;
-  padding: 0px;
+    display:flex;
+    padding: 10px;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     color:black;
-    font-size: 20px;
+    font-size: 12px;
     background-color: white;
-}
-.image1{
+  }
+
+
+.speeds1{
   display:flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   color:black;
   font-size: 20px;
   background-color: white;
 
 }
-.image2{
-  display:flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  flex-wrap: wrap;
-  color:black;
-  font-size: 20px;
-  background-color: white;
-}
-.security{
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  color:black;
-  font-size: 20px;
-  background-color: white;
-}
+
+
 .volt{
   display:flex;
   flex-direction: column;
